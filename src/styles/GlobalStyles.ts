@@ -18,6 +18,7 @@ export default createGlobalStyle`
     --color-quaternary: #000;
 
     --color-blue: #0061ff;
+    --color-blue-opacity: rgba(0, 97, 255, 0.3);
     --color-border: #bdc4c9;
   }
 `;

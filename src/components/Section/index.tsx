@@ -1,15 +1,16 @@
-import React from 'react';
+import React from "react";
 
-import { 
+import {
   Container,
-  HeaderWrapper, 
+  HeaderWrapper,
   Header,
+  ImagesPageIcon,
   DropboxLogo,
   Content,
-} from './styles';
+} from "./styles";
 
 interface Props {
-  variant: 'blue' | 'beige' | 'white' | 'black';
+  variant: "blue" | "beige" | "white" | "black";
   title: string;
   description: string;
 }
@@ -18,7 +19,7 @@ const Section: React.FC<Props> = ({ variant, title, description }) => {
   const buttonVariant = Math.round(Math.random());
 
   function handleToggle() {
-    if (window.toggleActiveMenu) window.toggleActiveMenu()
+    if (window.toggleActiveMenu) window.toggleActiveMenu();
   }
 
   return (
@@ -27,10 +28,18 @@ const Section: React.FC<Props> = ({ variant, title, description }) => {
         <Header>
           <h1>
             <DropboxLogo />
-            <span>Dropbox</span>
+            <span>Terkom</span>
           </h1>
 
-          <button onClick={handleToggle} >{buttonVariant === 0 ? 'Acessar' : 'Interagir'}</button>
+          <section>
+            <button>
+              <ImagesPageIcon />
+            </button>
+
+            <button onClick={handleToggle}>
+              {buttonVariant === 0 ? "Acessar" : "Interagir"}
+            </button>
+          </section>
         </Header>
       </HeaderWrapper>
 
@@ -39,7 +48,7 @@ const Section: React.FC<Props> = ({ variant, title, description }) => {
         <p>{description}</p>
       </Content>
     </Container>
-  )
-}
+  );
+};
 
 export default Section;

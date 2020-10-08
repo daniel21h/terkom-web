@@ -1,6 +1,7 @@
 export default [
   {
-    title: "Concentre-se apenas no trabalho importante",
+    title:
+      "Mais do que soldar, ser Terkom é realizar sonhos através da Usinagem",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu mi sit amet nisi volutpat facilisis. Quisque et elit ut eros ultrices mollis. Donec non ullamcorper sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
   },
@@ -10,7 +11,7 @@ export default [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu mi sit amet nisi volutpat facilisis. Quisque et elit ut eros ultrices mollis. Donec non ullamcorper sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
   },
   {
-    title: "Armazenamento e compartilhamento de arquivos são só o começo",
+    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu mi sit amet nisi volutpat facilisis. Quisque et elit ut eros ultrices mollis.",
   },
@@ -19,8 +20,7 @@ export default [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
-    title: "Parte inferior da página",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu mi sit amet nisi volutpat facilisis.",
+    title: "Terkom",
+    description: "by hesselfive.",
   },
 ];

@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { FaDropbox } from 'react-icons/fa'
+import styled from "styled-components";
+import { FaDraftingCompass, FaImage } from "react-icons/fa";
 
 export const Container = styled.div`
   --padding-top: 100px;
@@ -45,7 +45,7 @@ export const Container = styled.div`
   position: relative;
 `;
 
-export const HeaderWrapper  = styled.div`
+export const HeaderWrapper = styled.div`
   position: absolute;
   top: 0;
   left: 0;
@@ -63,7 +63,7 @@ export const Header = styled.header`
   justify-content: space-between;
 
   max-width: 1440px;
-  margin:  auto;
+  margin: auto;
   padding: 16px 32px;
 
   > h1 {
@@ -77,16 +77,23 @@ export const Header = styled.header`
     }
   }
 
-  > button {
-    color: var(--text-color);
-    background: none;
-    border: none;
-    outline: none;
-    font-size: 16px;
-    cursor: pointer;
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    &:hover, &:focus {
-      text-decoration: underline;
+    > button {
+      color: var(--text-color);
+      background: none;
+      border: none;
+      outline: none;
+      font-size: 16px;
+      cursor: pointer;
+
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+      }
     }
   }
 
@@ -96,12 +103,19 @@ export const Header = styled.header`
   right: 0;
 `;
 
-export const DropboxLogo = styled(FaDropbox)`
+export const ImagesPageIcon = styled(FaImage)`
+  width: 24px;
+  height: 24px;
+  fill: var(--logo-color);
+
+  margin-right: 12px;
+`;
+
+export const DropboxLogo = styled(FaDraftingCompass)`
   width: 36px;
   height: 32px;
   fill: var(--logo-color);
 `;
-
 
 export const Content = styled.div`
   z-index: 2;
