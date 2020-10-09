@@ -32,9 +32,9 @@ const MenuForm: React.FC = () => {
         <span className="title">Entrar em contato</span>
         <span className="subtitle">verifique as opções abaixo</span>
 
-        <a href="https://api.whatsapp.com/send?phone=5511981866903">
+        <a href="https://api.whatsapp.com/send?phone=5511947986336">
           <WhatsappIcon />
-          +55 (11) 98186-6903
+          +55 (11) 94798-6336
         </a>
         <a href="mailto:hesselproject@gmail.com@exemplo.com?Subject=Título%20da%20mensagem">
           <MailIcon />
