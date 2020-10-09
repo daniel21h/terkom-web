@@ -101,6 +101,10 @@ export const Header = styled.header`
   top: 0;
   left: 0;
   right: 0;
+
+  @media (min-width: 1024px) {
+    margin: auto 18%;
+  }
 `;
 
 export const ImagesPageIcon = styled(FaImage)`
@@ -123,10 +127,18 @@ export const Content = styled.div`
   max-width: 1440px;
   margin: 0 auto;
 
+  @media (min-width: 1024px) {
+    margin: auto 18%;
+  }
+
   > h2 {
     font-size: var(--heading-font-size);
     color: var(--logo-color);
-    max-width: var(--content-width);
+    max-width: 600px;
+
+    @media (max-width: 1100px) {
+      max-width: 470px;
+    }
   }
 
   > p {
